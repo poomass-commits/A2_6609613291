@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Learning Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Learning Portfolio</h1>
+        <p>รายวิชา CS100 ภาคเรียน 1/2569</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About Me</h2>
+            <img src="media/profile.jpg" alt="รูปโปรไฟล์" width="150">
+            <p>สวัสดีครับ ชื่อ ภูมิ อัศวจำรูญ รหัสนักศึกษา 6609613291</p>
+        </section>
+        
+        <section id="what-i-built">
+            <h2>What I Built</h2>
+            <p>เว็บไซต์นี้เป็น Learning Portfolio หน้าเดียวครับ มีส่วนประกอบหลักๆ คือ แนะนำตัว (About Me), อธิบายงาน (What I Built), ขั้นตอนการทำ (How I Built It) และสิ่งที่ได้เรียนรู้ (Reflection)</p>
+            <p><strong>เรื่อง Client / Server:</strong> ตอนเปิดเว็บดูในเครื่องตัวเอง มีเกิดขึ้นแค่ <strong>Client</strong> (เบราว์เซอร์) อย่างเดียวครับ เพราะเบราว์เซอร์ดึงไฟล์ในคอมเรามาแสดงผลตรงๆ ยังไม่มี <strong>Server</strong> เกิดขึ้น เพราะไม่ได้ส่งข้อมูลผ่านอินเทอร์เน็ตหรือ HTTP ครับ</p>
+        </section>
+        
+        <section id="how-i-built-it">
+            <h2>How I Built It</h2>
+            <p>งานนี้เริ่มจากการสร้างโครงสร้างโฟลเดอร์ตามที่อาจารย์กำหนดก่อน แล้วค่อยสร้างไฟล์ index.html และไฟล์ style.css แยกกัน จากนั้นก็ค่อยๆ พิมพ์แท็ก HTML ทีละส่วน แล้วลองเปิดดูผลบนเบราว์เซอร์ควบคู่ไปด้วยครับ</p>
+            <p><strong>ขั้นตอนและเครื่องมือที่ใช้ทำ:</strong></p>
+            <ul>
+                <li>จัดโครงสร้างโฟลเดอร์แยกเก็บไฟล์ css และ media ให้เป็นระเบียบ</li>
+                <li>ใช้ Semantic HTML เช่น &lt;header&gt;, &lt;main&gt;, &lt;section&gt; และ &lt;footer&gt; ในการจัดหน้าเว็บ</li>
+                <li>แยกโค้ดตกแต่งสี ฟอนต์ และจัดเลย์เอาต์ไปไว้ที่ไฟล์ css/style.css</li>
+                <li>ค้นหาวิธีใช้แท็กต่าง ๆ จากสไลด์เรียนวิชา CS100 <a href="https://drive.google.com/file/d/1TZaw1kh5W2r7v5jmxZEmb6zj8TRTS9X8/view" target="_blank">สไลด์การสอนรายวิชา CS100</a> และเว็บไซต์ <a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+            </ul>
+        </section>
+
+        <section id="reflection">
+            <h2>Reflection</h2>
+            <p><strong>ปัญหาที่พบและการแก้ไข:</strong> ตอนแรกเปิดหน้าเว็บแล้วรูปไม่ขึ้นและ CSS ไม่เปลี่ยนตามที่เขียนไว้ เพราะพิมพ์ path ของไฟล์ผิดและสับสนการอ้างอิงโฟลเดอร์ พอไปเปิดทบทวนเรื่อง Relative Path ในสไลด์ แล้วเช็กชื่อโฟลเดอร์ให้ตรงกัน เว็บก็แสดงผลได้ถูกต้องครับ</p>
+            <p><strong>สิ่งที่เข้าใจเกี่ยวกับการพัฒนาเว็บมากขึ้น:</strong> ได้เห็นภาพชัดเจนขึ้นว่า HTML ใช้สำหรับวางโครงสร้างเนื้อหา ส่วน CSS มีหน้าที่แต่งหน้าตาให้สวยงาม และการเลือกใช้ Semantic HTML ช่วยให้คนอ่านโค้ดเข้าใจง่าย</p>
+            <p><strong>สิ่งที่อยากปรับปรุงในอนาคต:</strong> อยากลองปรับแต่งสีสัน เปลี่ยนฟอนต์ และจัดระยะห่างข้อความให้ดูสวยงามขึ้นครับ เพราะตอนนี้เว็บยังดูเรียบๆ เป็นโทนสีพื้นฐานทั่วไปครับ</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2569 ภูมิ อัศวจำรูญ - CS100 Assignment 1</p>
+    </footer>
+
+</body>
+</html>
